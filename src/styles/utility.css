@@ -1,0 +1,4 @@
+:root {
+    --border-radius: 3px;
+    --elevate-0: 0px 0px var(--space-4) var(--space-4) hsla(var(--def-color-neutral), 30%, 0.25);
+}
