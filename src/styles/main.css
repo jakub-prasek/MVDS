@@ -1,5 +1,4 @@
-@import url(/src/styles/colors.css);
-@import url(/src/styles/docs-styles.css);
-@import url(/src/styles/space.css);
-@import url(/src/styles/utility.css);
-@import url(/src/styles/typography.css);
+@import url(./colors.css);
+@import url(./space.css);
+@import url(./utility.css);
+@import url(./typography.css);
