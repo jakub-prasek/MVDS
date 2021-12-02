@@ -17,8 +17,8 @@
           <span>{{ shade }}</span>
         </div>
         <div v-else class="shade-block_label shade-block_label-light">
-            <span>{{ color }}</span>
-            <span>{{ shade }}</span>
+          <span>{{ color }}</span>
+          <span>{{ shade }}</span>
         </div>
       </div>
       <!-- End Shade Scope -->
@@ -47,12 +47,11 @@ export default {
   margin: var(--space-8) 0;
 }
 .shade-block_label {
-    display: flex;
-    flex-direction: column;
-    padding: var(--space-16);
+  display: flex;
+  flex-direction: column;
+  padding: var(--space-16);
 }
 .shade-block_label-light {
   color: white;
-  height: var(--space-2);
 }
 </style>
