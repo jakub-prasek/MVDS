@@ -38,20 +38,21 @@ export default {
 };
 </script>
 
-<style scoped lang="scss">
+<style scoped>
 .color-block {
   display: flex;
 }
 .shade-block {
   flex: 1 1;
-  display: flex;
-  flex-direction: column;
+  margin: var(--space-8) 0;
 }
 .shade-block_label {
     display: flex;
     flex-direction: column;
+    padding: var(--space-16);
 }
 .shade-block_label-light {
   color: white;
+  height: var(--space-2);
 }
 </style>

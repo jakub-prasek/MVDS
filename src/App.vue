@@ -14,5 +14,6 @@ export default {
 </script>
 
 <style>
-@import url(./styles/main.css);
+@import url(./styles/variables.css);
+@import url(./styles/typography.css);
 </style>
