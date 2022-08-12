@@ -1,6 +1,7 @@
 <template>
   <div>
     <!-- Color Scope -->
+    <h1>Colors</h1>
     <section v-for="color in colors" :key="color" class="color-block">
       <!-- Shade Scope -->
       <div
@@ -31,7 +32,7 @@
 export default {
   data() {
     return {
-      colors: ["accent", "neutral", "link"],
+      colors: ["accent", "neutral", "link", "positive", "negative"],
       shades: [10, 20, 30, 40, 50, 60, 70, 80, 90, 95, 100],
     };
   },

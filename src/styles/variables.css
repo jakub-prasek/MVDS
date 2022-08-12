@@ -1,10 +1,26 @@
 :root {
-    --def-color-accent: 100, 20%;
+    /* Base Colors (Hue + Satuarion) */
+    --def-color-accent: 40, 50%;
     --def-color-neutral: 0, 0%;
-    --def-color-link: 230, 90%;
+    --def-color-link: 220, 90%;
+    --def-color-positive: 0, 90%;
+    --def-color-negative: 120, 50%;
+
+    /* Usage Colors */
+
+    /* Backgrounds */
+    --color-background-1: hsl(var(--def-color-neutral),100%);
+    --color-background-2: hsl(var(--def-color-neutral),95%);
+    --color-background-3: hsl(var(--def-color-neutral),90%);
+
+    /* Foregrounds */
+    --color-foreground-1: hsl(var(--def-color-neutral),10%);
+    --color-foreground-2: hsl(var(--def-color-neutral),30%);
+    --color-foreground-3: hsl(var(--def-color-neutral),50%);
 }
 
 :root {
+    /* Spacing Definitions */
     --def-space-increment: 0.125rem;                    /*2px */
 
     --space-2:  calc(1 * var(--def-space-increment));        /*2px */
@@ -20,6 +36,7 @@
 }
 
 :root {
+    /* Utilities */
     --border-radius: 3px;
     --elevate-0: 0px 0px var(--space-4) var(--space-4) hsla(var(--def-color-neutral), 30%, 0.25);
 }
